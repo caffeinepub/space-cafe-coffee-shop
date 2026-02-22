@@ -1,0 +1,203 @@
+{
+  "kind": "build_request",
+  "title": "Create Space Cafe Coffee Shop website",
+  "projectName": "Space Cafe",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "text": "Create a hero section with headline '✨ Space Cafe Coffee Shop – Your Cosmic Coffee Escape ✨', subheadline 'Cozy vibes, handcrafted coffee, and delicious treats that make every visit unforgettable.', and two CTA buttons labeled 'Visit Us Today' and 'Order Online'",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "Headline: ✨ Space Cafe Coffee Shop – Your Cosmic Coffee Escape ✨",
+          "Subheadline: Cozy vibes, handcrafted coffee, and delicious treats that make every visit unforgettable.",
+          "CTA Button: \"Visit Us Today\" | \"Order Online\""
+        ]
+      },
+      "acceptanceCriteria": [
+        "Hero section displays the headline prominently with sparkle emojis",
+        "Subheadline appears below the headline",
+        "Two CTA buttons are visible and styled appropriately",
+        "Hero image is displayed as the background or focal point"
+      ]
+    },
+    {
+      "id": "REQ-2",
+      "text": "Create an About Us section containing the text: 'At Space Cafe, we believe coffee is more than a drink – it's an experience. From rich espresso and creamy cappuccinos to unique iced lattes and specialty drinks, our menu is designed to delight every taste. Enjoy our freshly baked chocolate cake, savory sandwiches, and healthy drink options while soaking in a cozy, stylish atmosphere perfect for work, hangouts, or a quiet coffee break.' Include the promise: 'Quality, comfort, and a welcoming vibe for everyone.'",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "At Space Cafe, we believe coffee is more than a drink – it's an experience.",
+          "Our Promise: Quality, comfort, and a welcoming vibe for everyone."
+        ]
+      },
+      "acceptanceCriteria": [
+        "About Us section is clearly labeled",
+        "All provided text is displayed in a readable format",
+        "The promise statement is highlighted or emphasized"
+      ]
+    },
+    {
+      "id": "REQ-3",
+      "text": "Create a Menu Highlights section with two categories: 'Coffee & Drinks' listing Americano (Classic & smooth), Flat White (Nutty and creamy), Iced Latte (Refreshing & flavorful), Matcha Latte (Unique and vibrant), Cappuccino with Almond Milk (Deliciously dairy-free); and 'Desserts & Snacks' listing Chocolate Cake (Customer favorite), Zafaran Cake (Delightful & fragrant), Oreo Truffles (Must-try indulgence), Turkey Sandwich (Perfect savory bite). Include special note: 'Ask about our seasonal and healthy options!'",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "Coffee & Drinks:",
+          "Desserts & Snacks:",
+          "Special Note: Ask about our seasonal and healthy options!"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Menu is organized into two clear categories",
+        "Each item displays its name and description",
+        "Special note is visible and distinct from menu items"
+      ]
+    },
+    {
+      "id": "REQ-4",
+      "text": "Create a Gallery section showcasing images of latte art and specialty drinks, chocolate and Zafaran cakes, sandwiches and healthy snacks, and cozy seating and stylish interior. Include caption options: 'Cozy corners, delightful flavors.' or 'Where every sip and bite feels special.'",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "Showcase high-quality photos of:",
+          "Optional Caption Ideas: \"Cozy corners, delightful flavors.\" \"Where every sip and bite feels special.\""
+        ]
+      },
+      "acceptanceCriteria": [
+        "Gallery displays generated images in a grid or carousel layout",
+        "Images represent the four categories mentioned",
+        "At least one caption is displayed in the gallery section"
+      ]
+    },
+    {
+      "id": "REQ-5",
+      "text": "Create a Reviews/Testimonials section displaying four 5-star Google reviews: '\"The chocolate cake was amazing, and the iced latte was so good!\" – Mohamad C.', '\"Superb coffee and superb hospitality. Cozy & comfortable.\" – Minhaj S.', '\"Nice place, good vibes, and beautiful atmosphere.\" – Mim J.', '\"In love with their Oreo truffles and matcha drinks.\" – Dhari B.' Include a CTA button labeled 'See More Reviews on Google'",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "⭐⭐⭐⭐⭐ \"The chocolate cake was amazing, and the iced latte was so good!\" – Mohamad C.",
+          "CTA: \"See More Reviews on Google\""
+        ]
+      },
+      "acceptanceCriteria": [
+        "Four testimonials are displayed with 5-star ratings",
+        "Each review shows the quote and reviewer name",
+        "CTA button links to Google reviews or displays appropriately"
+      ]
+    },
+    {
+      "id": "REQ-6",
+      "text": "Create a Contact & Location section with placeholders for address and phone number, hours 'Mon-Sun: 7 AM – 9 PM', parking info 'Best parking at Baladiya lot across the street.', a contact form with fields for Name, Email, and Message, placeholder social links for Instagram, Facebook, and TikTok, and CTA buttons 'Get Directions' and 'Message Us'",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "Hours: Mon-Sun: 7 AM – 9 PM",
+          "Parking Info: Best parking at Baladiya lot across the street.",
+          "Simple form: Name, Email, Message.",
+          "CTA: \"Get Directions\" | \"Message Us\""
+        ]
+      },
+      "acceptanceCriteria": [
+        "Contact section displays hours and parking information",
+        "Contact form includes Name, Email, and Message fields",
+        "Social media links are displayed with appropriate icons",
+        "Both CTA buttons are visible and styled"
+      ]
+    },
+    {
+      "id": "REQ-7",
+      "text": "Create a footer section with the text 'Stay Connected & Enjoy Cosmic Coffee! Subscribe for updates, seasonal drinks, and special treats.' and a newsletter subscription form with a 'Subscribe Now' button",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "Stay Connected & Enjoy Cosmic Coffee! Subscribe for updates, seasonal drinks, and special treats.",
+          "CTA Button: \"Subscribe Now\""
+        ]
+      },
+      "acceptanceCriteria": [
+        "Footer displays the promotional text",
+        "Newsletter subscription form includes email input field",
+        "Subscribe Now button is prominently displayed"
+      ]
+    },
+    {
+      "id": "REQ-8",
+      "text": "Implement a warm, cosmic-inspired visual design theme throughout the website using rich browns, creams, deep purples, and gold accents to evoke a cozy coffee shop atmosphere with celestial touches. Apply cohesive typography with elegant fonts for headings and readable sans-serif for body text. Ensure layouts emphasize comfort and approachability with generous spacing and inviting imagery.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "Space Cafe Coffee Shop – Your Cosmic Coffee Escape",
+          "Cozy vibes, handcrafted coffee"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Color scheme consistently uses warm browns, creams, purples, and gold",
+        "Typography is cohesive across all sections",
+        "Layout feels inviting and spacious",
+        "Design reflects both coffee shop warmth and cosmic theme"
+      ]
+    },
+    {
+      "id": "REQ-9",
+      "text": "Render all generated gallery and hero images as static assets in frontend/public/assets/generated directory and reference them appropriately in the React components",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Generated images are stored in frontend/public/assets/generated",
+        "Components correctly reference image paths",
+        "All images load successfully in the UI"
+      ]
+    }
+  ],
+  "constraints": [],
+  "nonGoals": [
+    "Backend data storage for menu items or reviews",
+    "Real-time order processing system",
+    "User authentication or login functionality",
+    "Payment integration",
+    "Actual Google Maps integration or working contact form submission"
+  ],
+  "imageRequirements": {
+    "required": [
+      "Warm, inviting cafe interior with coffee cups, chocolate cake, and cozy seating with cosmic-themed subtle accents (hero-cafe.dim_1920x800.png)",
+      "Artistic latte art in a ceramic cup on a wooden table (latte-art.dim_800x600.png)",
+      "Chocolate cake slice with rich frosting on a white plate (chocolate-cake.dim_800x600.png)",
+      "Zafaran cake with golden color and delicate presentation (zafaran-cake.dim_800x600.png)",
+      "Oreo truffles arranged on a serving plate (oreo-truffles.dim_800x600.png)",
+      "Turkey sandwich with fresh ingredients on artisan bread (turkey-sandwich.dim_800x600.png)",
+      "Cozy cafe seating area with comfortable chairs and warm lighting (cozy-seating.dim_800x600.png)",
+      "Matcha latte in a glass with vibrant green color (matcha-latte.dim_800x600.png)"
+    ],
+    "edits": []
+  }
+}

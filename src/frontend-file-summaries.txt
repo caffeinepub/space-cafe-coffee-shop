@@ -1,0 +1,13 @@
+{
+  "frontend/src/App.tsx": "Main application component that renders all sections of the Space Cafe website in order: Hero, About, Menu, Gallery, Reviews, Contact, and Footer.",
+  "frontend/src/components/Hero.tsx": "Hero section component featuring the Space Cafe headline with sparkle icons, subheadline, two CTA buttons, and a full-screen background image with cosmic overlay gradient.",
+  "frontend/src/components/About.tsx": "About Us section component displaying the cafe's mission statement, promise card with heart icons, and three feature highlights with icons for handcrafted drinks, quality, and community.",
+  "frontend/src/components/Menu.tsx": "Menu Highlights section component showing two categories (Coffee & Drinks, Desserts & Snacks) in card layouts with icons, plus a special note banner about seasonal options.",
+  "frontend/src/components/Gallery.tsx": "Gallery section component displaying seven cafe images in a responsive grid with hover effects and modal dialogs for full-size viewing, plus decorative captions.",
+  "frontend/src/components/Reviews.tsx": "Reviews section component featuring four 5-star customer testimonials in card layouts with a CTA button to view more Google reviews.",
+  "frontend/src/components/Contact.tsx": "Contact & Location section component with business information cards (address, hours, phone, parking), social media links, action buttons, and a contact form with name, email, and message fields.",
+  "frontend/src/components/Footer.tsx": "Footer component with newsletter subscription form, copyright notice, and attribution link to caffeine.ai with UTM tracking parameters.",
+  "frontend/src/index.css": "Global styles defining the cosmic coffee shop color palette using OKLCH color system with warm browns, creams, purples, and gold accents for both light and dark modes, plus custom shadow utilities.",
+  "frontend/tailwind.config.js": "Tailwind configuration extending the theme with custom cosmic color tokens, Playfair Display font for headings, Inter for body text, and custom shadow utilities for the cosmic aesthetic.",
+  "frontend/src/hooks/useQueries.ts": "Empty placeholder file as the backend has no data storage functionality and all content is static."
+}

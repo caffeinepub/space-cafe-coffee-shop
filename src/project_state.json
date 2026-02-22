@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 3,
+  "summary": "Space Cafe Coffee Shop website - A multi-page coffee shop website featuring hero section, about us, menu highlights, gallery, customer reviews, contact information, and newsletter subscription",
+  "architectural_notes": [
+    "Multi-section single-page website structure",
+    "Responsive design with mobile-first approach",
+    "Contact form with Name, Email, Message fields",
+    "Map embed integration for location",
+    "Social media integration (Instagram, Facebook, TikTok)"
+  ],
+  "known_issues": [],
+  "isFixRequest": false,
+  "imageRequirements": "## Required Images\n- Warm, inviting cafe interior with coffee cups, chocolate cake, and cozy seating with cosmic-themed subtle accents (hero-cafe.dim_1920x800.png)\n- Artistic latte art in a ceramic cup on a wooden table (latte-art.dim_800x600.png)\n- Chocolate cake slice with rich frosting on a white plate (chocolate-cake.dim_800x600.png)\n- Zafaran cake with golden color and delicate presentation (zafaran-cake.dim_800x600.png)\n- Oreo truffles arranged on a serving plate (oreo-truffles.dim_800x600.png)\n- Turkey sandwich with fresh ingredients on artisan bread (turkey-sandwich.dim_800x600.png)\n- Cozy cafe seating area with comfortable chairs and warm lighting (cozy-seating.dim_800x600.png)\n- Matcha latte in a glass with vibrant green color (matcha-latte.dim_800x600.png)",
+  "existing_features": [
+    {
+      "id": "feature-create-a-hero-section-with-headline-space-cafe-coffee-shop-your-cosmic-coffee-escape-subheadline-cozy-vibes-handcrafted-coffee-and-delicious-treats-that-make-every-visit-unforgettable-and-two-cta-buttons-labeled-visit-us-today-and-order-online",
+      "title": "Create a hero section with headline '✨ Space Cafe Coffee Shop – Your Cosmic Coffee Escape ✨', subheadline 'Cozy vibes, handcrafted coffee, and delicious treats that make every visit unforgettable.', and two CTA buttons labeled 'Visit Us Today' and 'Order Online'",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-an-about-us-section-containing-the-text-at-space-cafe-we-believe-coffee-is-more-than-a-drink-it-s-an-experience-from-rich-espresso-and-creamy-cappuccinos-to-unique-iced-lattes-and-specialty-drinks-our-menu-is-designed-to-delight-every-taste-enjoy-our-freshly-baked-chocolate-cake-savory-sandwiches-and-healthy-drink-options-while-soaking-in-a-cozy-stylish-atmosphere-perfect-for-work-hangouts-or-a-quiet-coffee-break-include-the-promise-quality-comfort-and-a-welcoming-vibe-for-everyone",
+      "title": "Create an About Us section containing the text: 'At Space Cafe, we believe coffee is more than a drink – it's an experience. From rich espresso and creamy cappuccinos to unique iced lattes and specialty drinks, our menu is designed to delight every taste. Enjoy our freshly baked chocolate cake, savory sandwiches, and healthy drink options while soaking in a cozy, stylish atmosphere perfect for work, hangouts, or a quiet coffee break.' Include the promise: 'Quality, comfort, and a welcoming vibe for everyone.'",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-menu-highlights-section-with-two-categories-coffee-drinks-listing-americano-classic-smooth-flat-white-nutty-and-creamy-iced-latte-refreshing-flavorful-matcha-latte-unique-and-vibrant-cappuccino-with-almond-milk-deliciously-dairy-free-and-desserts-snacks-listing-chocolate-cake-customer-favorite-zafaran-cake-delightful-fragrant-oreo-truffles-must-try-indulgence-turkey-sandwich-perfect-savory-bite-include-special-note-ask-about-our-seasonal-and-healthy-options",
+      "title": "Create a Menu Highlights section with two categories: 'Coffee & Drinks' listing Americano (Classic & smooth), Flat White (Nutty and creamy), Iced Latte (Refreshing & flavorful), Matcha Latte (Unique and vibrant), Cappuccino with Almond Milk (Deliciously dairy-free); and 'Desserts & Snacks' listing Chocolate Cake (Customer favorite), Zafaran Cake (Delightful & fragrant), Oreo Truffles (Must-try indulgence), Turkey Sandwich (Perfect savory bite). Include special note: 'Ask about our seasonal and healthy options!'",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-gallery-section-showcasing-images-of-latte-art-and-specialty-drinks-chocolate-and-zafaran-cakes-sandwiches-and-healthy-snacks-and-cozy-seating-and-stylish-interior-include-caption-options-cozy-corners-delightful-flavors-or-where-every-sip-and-bite-feels-special",
+      "title": "Create a Gallery section showcasing images of latte art and specialty drinks, chocolate and Zafaran cakes, sandwiches and healthy snacks, and cozy seating and stylish interior. Include caption options: 'Cozy corners, delightful flavors.' or 'Where every sip and bite feels special.'",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-reviews-testimonials-section-displaying-four-5-star-google-reviews-the-chocolate-cake-was-amazing-and-the-iced-latte-was-so-good-mohamad-c-superb-coffee-and-superb-hospitality-cozy-comfortable-minhaj-s-nice-place-good-vibes-and-beautiful-atmosphere-mim-j-in-love-with-their-oreo-truffles-and-matcha-drinks-dhari-b-include-a-cta-button-labeled-see-more-reviews-on-google",
+      "title": "Create a Reviews/Testimonials section displaying four 5-star Google reviews: '\"The chocolate cake was amazing, and the iced latte was so good!\" – Mohamad C.', '\"Superb coffee and superb hospitality. Cozy & comfortable.\" – Minhaj S.', '\"Nice place, good vibes, and beautiful atmosphere.\" – Mim J.', '\"In love with their Oreo truffles and matcha drinks.\" – Dhari B.' Include a CTA button labeled 'See More Reviews on Google'",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-contact-location-section-with-placeholders-for-address-and-phone-number-hours-mon-sun-7-am-9-pm-parking-info-best-parking-at-baladiya-lot-across-the-street-a-contact-form-with-fields-for-name-email-and-message-placeholder-social-links-for-instagram-facebook-and-tiktok-and-cta-buttons-get-directions-and-message-us",
+      "title": "Create a Contact & Location section with placeholders for address and phone number, hours 'Mon-Sun: 7 AM – 9 PM', parking info 'Best parking at Baladiya lot across the street.', a contact form with fields for Name, Email, and Message, placeholder social links for Instagram, Facebook, and TikTok, and CTA buttons 'Get Directions' and 'Message Us'",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-footer-section-with-the-text-stay-connected-enjoy-cosmic-coffee-subscribe-for-updates-seasonal-drinks-and-special-treats-and-a-newsletter-subscription-form-with-a-subscribe-now-button",
+      "title": "Create a footer section with the text 'Stay Connected & Enjoy Cosmic Coffee! Subscribe for updates, seasonal drinks, and special treats.' and a newsletter subscription form with a 'Subscribe Now' button",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-a-warm-cosmic-inspired-visual-design-theme-throughout-the-website-using-rich-browns-creams-deep-purples-and-gold-accents-to-evoke-a-cozy-coffee-shop-atmosphere-with-celestial-touches-apply-cohesive-typography-with-elegant-fonts-for-headings-and-readable-sans-serif-for-body-text-ensure-layouts-emphasize-comfort-and-approachability-with-generous-spacing-and-inviting-imagery",
+      "title": "Implement a warm, cosmic-inspired visual design theme throughout the website using rich browns, creams, deep purples, and gold accents to evoke a cozy coffee shop atmosphere with celestial touches. Apply cohesive typography with elegant fonts for headings and readable sans-serif for body text. Ensure layouts emphasize comfort and approachability with generous spacing and inviting imagery.",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-render-all-generated-gallery-and-hero-images-as-static-assets-in-frontend-public-assets-generated-directory-and-reference-them-appropriately-in-the-react-components",
+      "title": "Render all generated gallery and hero images as static assets in frontend/public/assets/generated directory and reference them appropriately in the React components",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Hero section with headline, subheadline, CTA buttons, and hero image",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "About Us section describing cafe experience and promise",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Menu Highlights section with coffee/drinks and desserts/snacks",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Gallery section showcasing photos of drinks, food, and interior",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-5",
+      "summary": "Reviews/Testimonials section with Google review snippets",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-6",
+      "summary": "Contact & Location section with address, hours, map, and contact form",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-7",
+      "summary": "Footer with newsletter subscription and social media links",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "Space Cafe Coffee Shop",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

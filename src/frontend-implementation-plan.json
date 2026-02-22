@@ -1,0 +1,199 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Space Cafe Coffee Shop Website - Frontend Implementation",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "summary": "Create hero section with headline, subheadline, and two CTA buttons",
+      "acceptanceCriteria": [
+        "Hero section displays the headline prominently with sparkle emojis",
+        "Subheadline appears below the headline",
+        "Two CTA buttons are visible and styled appropriately",
+        "Hero image is displayed as the background or focal point"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/Hero.tsx",
+          "operation": "create",
+          "description": "Create Hero component with headline '✨ Space Cafe Coffee Shop – Your Cosmic Coffee Escape ✨', subheadline 'Cozy vibes, handcrafted coffee, and delicious treats that make every visit unforgettable.', and two CTA buttons labeled 'Visit Us Today' and 'Order Online'. Use the generated hero image from frontend/public/assets/generated/hero-cafe.dim_1920x800.png as the background."
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Import and render the Hero component at the top of the main page layout."
+        }
+      ]
+    },
+    {
+      "id": "REQ-2",
+      "summary": "Create About Us section with cafe description and promise statement",
+      "acceptanceCriteria": [
+        "About Us section is clearly labeled",
+        "All provided text is displayed in a readable format",
+        "The promise statement is highlighted or emphasized"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/About.tsx",
+          "operation": "create",
+          "description": "Create About component displaying the section text: 'At Space Cafe, we believe coffee is more than a drink – it's an experience. From rich espresso and creamy cappuccinos to unique iced lattes and specialty drinks, our menu is designed to delight every taste. Enjoy our freshly baked chocolate cake, savory sandwiches, and healthy drink options while soaking in a cozy, stylish atmosphere perfect for work, hangouts, or a quiet coffee break.' Include emphasized promise: 'Quality, comfort, and a welcoming vibe for everyone.'"
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Import and render the About component below the Hero section."
+        }
+      ]
+    },
+    {
+      "id": "REQ-3",
+      "summary": "Create Menu Highlights section with coffee/drinks and desserts/snacks categories",
+      "acceptanceCriteria": [
+        "Menu is organized into two clear categories",
+        "Each item displays its name and description",
+        "Special note is visible and distinct from menu items"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/Menu.tsx",
+          "operation": "create",
+          "description": "Create Menu component with two categories: 'Coffee & Drinks' (Americano - Classic & smooth, Flat White - Nutty and creamy, Iced Latte - Refreshing & flavorful, Matcha Latte - Unique and vibrant, Cappuccino with Almond Milk - Deliciously dairy-free) and 'Desserts & Snacks' (Chocolate Cake - Customer favorite, Zafaran Cake - Delightful & fragrant, Oreo Truffles - Must-try indulgence, Turkey Sandwich - Perfect savory bite). Include special note: 'Ask about our seasonal and healthy options!'"
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Import and render the Menu component below the About section."
+        }
+      ]
+    },
+    {
+      "id": "REQ-4",
+      "summary": "Create Gallery section showcasing cafe images with captions",
+      "acceptanceCriteria": [
+        "Gallery displays generated images in a grid or carousel layout",
+        "Images represent the four categories mentioned",
+        "At least one caption is displayed in the gallery section"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/Gallery.tsx",
+          "operation": "create",
+          "description": "Create Gallery component displaying images of latte art (frontend/public/assets/generated/latte-art.dim_800x600.png), specialty drinks (frontend/public/assets/generated/matcha-latte.dim_800x600.png), chocolate and Zafaran cakes (frontend/public/assets/generated/chocolate-cake.dim_800x600.png, frontend/public/assets/generated/zafaran-cake.dim_800x600.png), sandwiches and snacks (frontend/public/assets/generated/oreo-truffles.dim_800x600.png, frontend/public/assets/generated/turkey-sandwich.dim_800x600.png), and cozy seating (frontend/public/assets/generated/cozy-seating.dim_800x600.png). Include caption 'Cozy corners, delightful flavors.' or 'Where every sip and bite feels special.'"
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Import and render the Gallery component below the Menu section."
+        }
+      ]
+    },
+    {
+      "id": "REQ-5",
+      "summary": "Create Reviews/Testimonials section with four 5-star Google reviews",
+      "acceptanceCriteria": [
+        "Four testimonials are displayed with 5-star ratings",
+        "Each review shows the quote and reviewer name",
+        "CTA button links to Google reviews or displays appropriately"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/Reviews.tsx",
+          "operation": "create",
+          "description": "Create Reviews component displaying four 5-star reviews: '\"The chocolate cake was amazing, and the iced latte was so good!\" – Mohamad C.', '\"Superb coffee and superb hospitality. Cozy & comfortable.\" – Minhaj S.', '\"Nice place, good vibes, and beautiful atmosphere.\" – Mim J.', '\"In love with their Oreo truffles and matcha drinks.\" – Dhari B.' Include CTA button labeled 'See More Reviews on Google'."
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Import and render the Reviews component below the Gallery section."
+        }
+      ]
+    },
+    {
+      "id": "REQ-6",
+      "summary": "Create Contact & Location section with hours, parking info, contact form, and social links",
+      "acceptanceCriteria": [
+        "Contact section displays hours and parking information",
+        "Contact form includes Name, Email, and Message fields",
+        "Social media links are displayed with appropriate icons",
+        "Both CTA buttons are visible and styled"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/Contact.tsx",
+          "operation": "create",
+          "description": "Create Contact component with placeholders for address and phone number, hours 'Mon-Sun: 7 AM – 9 PM', parking info 'Best parking at Baladiya lot across the street.', a contact form with fields for Name, Email, and Message, placeholder social links for Instagram, Facebook, and TikTok, and CTA buttons 'Get Directions' and 'Message Us'."
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Import and render the Contact component below the Reviews section."
+        }
+      ]
+    },
+    {
+      "id": "REQ-7",
+      "summary": "Create footer with newsletter subscription form",
+      "acceptanceCriteria": [
+        "Footer displays the promotional text",
+        "Newsletter subscription form includes email input field",
+        "Subscribe Now button is prominently displayed"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/Footer.tsx",
+          "operation": "create",
+          "description": "Create Footer component with text 'Stay Connected & Enjoy Cosmic Coffee! Subscribe for updates, seasonal drinks, and special treats.' and a newsletter subscription form with email input field and 'Subscribe Now' button."
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Import and render the Footer component at the bottom of the page layout."
+        }
+      ]
+    },
+    {
+      "id": "REQ-8",
+      "summary": "Implement warm, cosmic-inspired visual design theme throughout the website",
+      "acceptanceCriteria": [
+        "Color scheme consistently uses warm browns, creams, purples, and gold",
+        "Typography is cohesive across all sections",
+        "Layout feels inviting and spacious",
+        "Design reflects both coffee shop warmth and cosmic theme"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/index.css",
+          "operation": "modify",
+          "description": "Update global styles to implement warm, cosmic-inspired color palette using rich browns, creams, deep purples, and gold accents. Define CSS variables for consistent theming across components."
+        },
+        {
+          "path": "frontend/tailwind.config.js",
+          "operation": "modify",
+          "description": "Extend Tailwind configuration with custom color palette (warm browns, creams, deep purples, gold accents) and typography settings using elegant fonts for headings and readable sans-serif for body text to create a cohesive cosmic coffee shop theme."
+        }
+      ]
+    },
+    {
+      "id": "REQ-9",
+      "summary": "Render all generated gallery and hero images as static assets",
+      "acceptanceCriteria": [
+        "Generated images are stored in frontend/public/assets/generated",
+        "Components correctly reference image paths",
+        "All images load successfully in the UI"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/Hero.tsx",
+          "operation": "modify",
+          "description": "Ensure Hero component correctly references the generated hero image at frontend/public/assets/generated/hero-cafe.dim_1920x800.png using the appropriate image loading approach for static assets."
+        },
+        {
+          "path": "frontend/src/components/Gallery.tsx",
+          "operation": "modify",
+          "description": "Ensure Gallery component correctly references all generated images in frontend/public/assets/generated directory: latte-art.dim_800x600.png, chocolate-cake.dim_800x600.png, zafaran-cake.dim_800x600.png, oreo-truffles.dim_800x600.png, turkey-sandwich.dim_800x600.png, cozy-seating.dim_800x600.png, and matcha-latte.dim_800x600.png using the appropriate image loading approach for static assets."
+        }
+      ]
+    }
+  ]
+}

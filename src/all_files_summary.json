@@ -1,0 +1,22 @@
+{
+  "backend/main.mo": "Empty Motoko actor with no functionality; backend is not used for this static frontend application.",
+  "feature_evidence.json": "Feature evidence report documenting implemented features including hero section, about section, menu highlights, gallery, reviews, contact form, and footer with high confidence test mappings.",
+  "frontend-file-summaries.txt": "JSON-formatted summaries of all frontend source files describing their purpose and content for the Space Cafe website.",
+  "frontend/index.css": "Tailwind CSS configuration with custom CSS variables defining a cosmic coffee shop color palette using OKLCH color system for light and dark modes.",
+  "frontend/index.html": "HTML entry point with viewport meta tags, page title 'Space Cafe Coffee Shop', and root div for React mounting.",
+  "frontend/src/App.tsx": "Main React component that renders all page sections in order: Hero, About, Menu, Gallery, Reviews, Contact, and Footer.",
+  "frontend/src/components/About.tsx": "About Us section displaying the cafe's mission statement, promise card with heart icons, and three feature highlights with Coffee, Heart, and Users icons.",
+  "frontend/src/components/Contact.tsx": "Contact section with business information cards (address, hours, phone, parking), social media links, Google Maps/directions buttons, and a contact form with name, email, and message fields.",
+  "frontend/src/components/Footer.tsx": "Footer with newsletter subscription form, copyright notice, and attribution link to caffeine.ai with UTM tracking parameters.",
+  "frontend/src/components/Gallery.tsx": "Gallery section displaying seven cafe images in a responsive grid with hover effects and modal dialogs for full-size viewing.",
+  "frontend/src/components/Hero.tsx": "Hero section component with background image, headline with sparkle icons, tagline, description, and two CTA buttons ('Visit Us Today' and 'Order Online'), plus a decorative SVG wave at the bottom.",
+  "frontend/src/components/Menu.tsx": "Menu section displaying two card grids: one for coffee/drinks (5 items) and one for desserts/snacks (4 items), with icons, descriptions, and a special note about seasonal options.",
+  "frontend/src/components/Reviews.tsx": "Customer reviews section showing 4 testimonials in a card grid with 5-star ratings and a CTA button linking to Google reviews.",
+  "frontend/src/hooks/useActor.ts": "React hook that creates and manages an ICP actor instance based on Internet Identity authentication state, invalidating dependent queries when the actor changes.",
+  "frontend/src/hooks/useInternetIdentity.ts": "React context provider and hook for Internet Identity authentication, managing login state, identity persistence, and AuthClient lifecycle with configurable options.",
+  "frontend/src/hooks/useQueries.ts": "Empty file placeholder indicating no backend data storage functionality; all content is static and rendered directly in components.",
+  "frontend/src/index.css": "Tailwind CSS configuration with custom cosmic-themed color palette (browns, creams, golds, purples) defined in OKLCH color space for both light and dark modes, plus custom shadow utility.",
+  "frontend/src/main.tsx": "Application entry point that sets up React Query client and Internet Identity provider, then renders the App component into the root DOM element.",
+  "frontend/tailwind.config.js": "Tailwind configuration extending the theme with custom cosmic color palette, font families (Inter and Playfair Display), border radius variables, and custom animations/shadows.",
+  "project_state.json": "Project state file for Space Cafe Coffee Shop website tracking architectural decisions, features, and image requirements. Contains metadata about the multi-section responsive website with hero section, about us, menu, gallery, reviews, contact form, and newsletter subscription."
+}

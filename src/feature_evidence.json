@@ -1,0 +1,176 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-create-a-hero-section-with-headline-space-cafe-coffee-shop-your-cosmic-coffee-escape-subheadline-cozy-vibes-handcrafted-coffee-and-delicious-treats-that-make-every-visit-unforgettable-and-two-cta-buttons-labeled-visit-us-today-and-order-online",
+      "featureTitle": "Create a hero section with headline '✨ Space Cafe Coffee Shop – Your Cosmic Coffee Escape ✨', subheadline 'Cozy vibes, handcrafted coffee, and delicious treats that make every visit unforgettable.', and two CTA buttons labeled 'Visit Us Today' and 'Order Online'",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/Hero.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-1"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-create-an-about-us-section-containing-the-text-at-space-cafe-we-believe-coffee-is-more-than-a-drink-it-s-an-experience-from-rich-espresso-and-creamy-cappuccinos-to-unique-iced-lattes-and-specialty-drinks-our-menu-is-designed-to-delight-every-taste-enjoy-our-freshly-baked-chocolate-cake-savory-sandwiches-and-healthy-drink-options-while-soaking-in-a-cozy-stylish-atmosphere-perfect-for-work-hangouts-or-a-quiet-coffee-break-include-the-promise-quality-comfort-and-a-welcoming-vibe-for-everyone",
+      "featureTitle": "Create an About Us section containing the text: 'At Space Cafe, we believe coffee is more than a drink – it's an experience. From rich espresso and creamy cappuccinos to unique iced lattes and specialty drinks, our menu is designed to delight every taste. Enjoy our freshly baked chocolate cake, savory sandwiches, and healthy drink options while soaking in a cozy, stylish atmosphere perfect for work, hangouts, or a quiet coffee break.' Include the promise: 'Quality, comfort, and a welcoming vibe for everyone.'",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/About.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-2"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-create-a-menu-highlights-section-with-two-categories-coffee-drinks-listing-americano-classic-smooth-flat-white-nutty-and-creamy-iced-latte-refreshing-flavorful-matcha-latte-unique-and-vibrant-cappuccino-with-almond-milk-deliciously-dairy-free-and-desserts-snacks-listing-chocolate-cake-customer-favorite-zafaran-cake-delightful-fragrant-oreo-truffles-must-try-indulgence-turkey-sandwich-perfect-savory-bite-include-special-note-ask-about-our-seasonal-and-healthy-options",
+      "featureTitle": "Create a Menu Highlights section with two categories: 'Coffee & Drinks' listing Americano (Classic & smooth), Flat White (Nutty and creamy), Iced Latte (Refreshing & flavorful), Matcha Latte (Unique and vibrant), Cappuccino with Almond Milk (Deliciously dairy-free); and 'Desserts & Snacks' listing Chocolate Cake (Customer favorite), Zafaran Cake (Delightful & fragrant), Oreo Truffles (Must-try indulgence), Turkey Sandwich (Perfect savory bite). Include special note: 'Ask about our seasonal and healthy options!'",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/Menu.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-create-a-gallery-section-showcasing-images-of-latte-art-and-specialty-drinks-chocolate-and-zafaran-cakes-sandwiches-and-healthy-snacks-and-cozy-seating-and-stylish-interior-include-caption-options-cozy-corners-delightful-flavors-or-where-every-sip-and-bite-feels-special",
+      "featureTitle": "Create a Gallery section showcasing images of latte art and specialty drinks, chocolate and Zafaran cakes, sandwiches and healthy snacks, and cozy seating and stylish interior. Include caption options: 'Cozy corners, delightful flavors.' or 'Where every sip and bite feels special.'",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/Gallery.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-create-a-reviews-testimonials-section-displaying-four-5-star-google-reviews-the-chocolate-cake-was-amazing-and-the-iced-latte-was-so-good-mohamad-c-superb-coffee-and-superb-hospitality-cozy-comfortable-minhaj-s-nice-place-good-vibes-and-beautiful-atmosphere-mim-j-in-love-with-their-oreo-truffles-and-matcha-drinks-dhari-b-include-a-cta-button-labeled-see-more-reviews-on-google",
+      "featureTitle": "Create a Reviews/Testimonials section displaying four 5-star Google reviews: '\"The chocolate cake was amazing, and the iced latte was so good!\" – Mohamad C.', '\"Superb coffee and superb hospitality. Cozy & comfortable.\" – Minhaj S.', '\"Nice place, good vibes, and beautiful atmosphere.\" – Mim J.', '\"In love with their Oreo truffles and matcha drinks.\" – Dhari B.' Include a CTA button labeled 'See More Reviews on Google'",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/Reviews.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-create-a-contact-location-section-with-placeholders-for-address-and-phone-number-hours-mon-sun-7-am-9-pm-parking-info-best-parking-at-baladiya-lot-across-the-street-a-contact-form-with-fields-for-name-email-and-message-placeholder-social-links-for-instagram-facebook-and-tiktok-and-cta-buttons-get-directions-and-message-us",
+      "featureTitle": "Create a Contact & Location section with placeholders for address and phone number, hours 'Mon-Sun: 7 AM – 9 PM', parking info 'Best parking at Baladiya lot across the street.', a contact form with fields for Name, Email, and Message, placeholder social links for Instagram, Facebook, and TikTok, and CTA buttons 'Get Directions' and 'Message Us'",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/Contact.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-create-a-footer-section-with-the-text-stay-connected-enjoy-cosmic-coffee-subscribe-for-updates-seasonal-drinks-and-special-treats-and-a-newsletter-subscription-form-with-a-subscribe-now-button",
+      "featureTitle": "Create a footer section with the text 'Stay Connected & Enjoy Cosmic Coffee! Subscribe for updates, seasonal drinks, and special treats.' and a newsletter subscription form with a 'Subscribe Now' button",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/Footer.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-implement-a-warm-cosmic-inspired-visual-design-theme-throughout-the-website-using-rich-browns-creams-deep-purples-and-gold-accents-to-evoke-a-cozy-coffee-shop-atmosphere-with-celestial-touches-apply-cohesive-typography-with-elegant-fonts-for-headings-and-readable-sans-serif-for-body-text-ensure-layouts-emphasize-comfort-and-approachability-with-generous-spacing-and-inviting-imagery",
+      "featureTitle": "Implement a warm, cosmic-inspired visual design theme throughout the website using rich browns, creams, deep purples, and gold accents to evoke a cozy coffee shop atmosphere with celestial touches. Apply cohesive typography with elegant fonts for headings and readable sans-serif for body text. Ensure layouts emphasize comfort and approachability with generous spacing and inviting imagery.",
+      "files": [
+        "frontend/src/index.css",
+        "frontend/tailwind.config.js"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-8"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-render-all-generated-gallery-and-hero-images-as-static-assets-in-frontend-public-assets-generated-directory-and-reference-them-appropriately-in-the-react-components",
+      "featureTitle": "Render all generated gallery and hero images as static assets in frontend/public/assets/generated directory and reference them appropriately in the React components",
+      "files": [
+        "frontend/src/components/Gallery.tsx",
+        "frontend/src/components/Hero.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-9"
+      ],
+      "confidence": "high"
+    }
+  ]
+}
