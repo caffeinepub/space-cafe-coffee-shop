@@ -1,17 +1,12 @@
 # Specification
 
 ## Summary
-**Goal:** Create a Space Cafe Coffee Shop website with cosmic-inspired design, showcasing menu highlights, gallery, reviews, and contact information.
+**Goal:** Update contact information and replace hero background image.
 
 **Planned changes:**
-- Build hero section with headline, subheadline, and CTA buttons
-- Add About Us section describing the cafe's mission and promise
-- Create Menu Highlights section with Coffee & Drinks and Desserts & Snacks categories
-- Implement Gallery section showcasing cafe images with captions
-- Display Reviews/Testimonials section with four 5-star Google reviews
-- Add Contact & Location section with hours, parking info, contact form, and social links
-- Create footer with newsletter subscription
-- Apply warm, cosmic-inspired visual design with browns, creams, purples, and gold accents
-- Generate and integrate custom images for hero, menu items, and gallery
+- Update Contact section address to "Salhiya st, block 11, building 11, shop 4, Kuwait"
+- Update Contact section phone number to "+96566339592"
+- Update operating hours to show Sunday-Thursday 7 AM–10 PM, Friday-Saturday 10 AM–10 PM, with special notes for Wednesday (Kuwait National Day) and Thursday (Kuwait Liberation Day) indicating "Hours might differ"
+- Replace hero section background image with new cosmic coffee shop background
 
-**User-visible outcome:** A fully functional, visually appealing single-page website for Space Cafe Coffee Shop where visitors can view the menu, explore the gallery, read reviews, and find contact information.
+**User-visible outcome:** Contact section displays the correct Kuwait location, phone number, and detailed operating hours including holiday notes. The hero section features a refreshed cosmic-themed background image.

@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "projectStateVersion": 3,
+  "projectStateVersion": 5,
   "summary": "Space Cafe Coffee Shop website - A multi-page coffee shop website featuring hero section, about us, menu highlights, gallery, customer reviews, contact information, and newsletter subscription",
   "architectural_notes": [
     "Multi-section single-page website structure",
@@ -11,7 +11,7 @@
   ],
   "known_issues": [],
   "isFixRequest": false,
-  "imageRequirements": "## Required Images\n- Warm, inviting cafe interior with coffee cups, chocolate cake, and cozy seating with cosmic-themed subtle accents (hero-cafe.dim_1920x800.png)\n- Artistic latte art in a ceramic cup on a wooden table (latte-art.dim_800x600.png)\n- Chocolate cake slice with rich frosting on a white plate (chocolate-cake.dim_800x600.png)\n- Zafaran cake with golden color and delicate presentation (zafaran-cake.dim_800x600.png)\n- Oreo truffles arranged on a serving plate (oreo-truffles.dim_800x600.png)\n- Turkey sandwich with fresh ingredients on artisan bread (turkey-sandwich.dim_800x600.png)\n- Cozy cafe seating area with comfortable chairs and warm lighting (cozy-seating.dim_800x600.png)\n- Matcha latte in a glass with vibrant green color (matcha-latte.dim_800x600.png)",
+  "imageRequirements": "## Required Images\n- Warm cosmic coffee shop hero background with rich browns, deep purples, and gold accents, featuring abstract coffee-themed elements like steam swirls and celestial motifs (hero-background.dim_1920x1080.png)",
   "existing_features": [
     {
       "id": "feature-create-a-hero-section-with-headline-space-cafe-coffee-shop-your-cosmic-coffee-escape-subheadline-cozy-vibes-handcrafted-coffee-and-delicious-treats-that-make-every-visit-unforgettable-and-two-cta-buttons-labeled-visit-us-today-and-order-online",
@@ -84,6 +84,38 @@
         "REQ-9"
       ],
       "version": 1
+    },
+    {
+      "id": "feature-update-the-contact-section-address-to-display-salhiya-st-block-11-building-11-shop-4-kuwait",
+      "title": "Update the Contact section address to display 'Salhiya st, block 11, building 11, shop 4, Kuwait'",
+      "reqIds": [
+        "REQ-10"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-contact-section-phone-number-to-display-96566339592",
+      "title": "Update the Contact section phone number to display '+96566339592'",
+      "reqIds": [
+        "REQ-11"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-operating-hours-in-the-contact-section-to-sunday-thursday-7-am-10-pm-friday-saturday-10-am-10-pm-with-special-notes-for-wednesday-kuwait-national-day-and-thursday-kuwait-liberation-day-indicating-hours-might-differ",
+      "title": "Update the operating hours in the Contact section to: Sunday-Thursday 7 AM–10 PM, Friday-Saturday 10 AM–10 PM, with special notes for Wednesday (Kuwait National Day) and Thursday (Kuwait Liberation Day) indicating 'Hours might differ'",
+      "reqIds": [
+        "REQ-12"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-replace-the-hero-section-background-image-with-a-new-generated-background",
+      "title": "Replace the hero section background image with a new generated background",
+      "reqIds": [
+        "REQ-13"
+      ],
+      "version": 1
     }
   ],
   "new_feature_requests": [
@@ -126,6 +158,24 @@
     {
       "id": "AR-7",
       "summary": "Footer with newsletter subscription and social media links",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-8",
+      "summary": "Update contact section with real address (Salhiya st, block 11, building 11, shop 4, Kuwait) and phone number (+96566339592)",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-9",
+      "summary": "Update hours to Sunday-Thursday 7 AM-10 PM and Friday-Saturday 10 AM-10 PM",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-10",
+      "summary": "Change landing page/hero section background",
       "reqIds": [],
       "status": "pending"
     }

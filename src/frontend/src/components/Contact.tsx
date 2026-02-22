@@ -47,7 +47,10 @@ export default function Contact() {
                     </div>
                     <div>
                       <h3 className="font-semibold text-lg text-cosmic-brown mb-1">Address</h3>
-                      <p className="text-muted-foreground">[Insert Your Address]</p>
+                      <p className="text-muted-foreground">
+                        Salhiya st, block 11, building 11, shop 4<br />
+                        Kuwait
+                      </p>
                     </div>
                   </div>
 
@@ -56,9 +59,44 @@ export default function Contact() {
                     <div className="w-12 h-12 bg-cosmic-gold/20 rounded-full flex items-center justify-center flex-shrink-0">
                       <Clock className="w-6 h-6 text-cosmic-gold" />
                     </div>
-                    <div>
-                      <h3 className="font-semibold text-lg text-cosmic-brown mb-1">Hours</h3>
-                      <p className="text-muted-foreground">Mon-Sun: 7 AM – 9 PM</p>
+                    <div className="w-full">
+                      <h3 className="font-semibold text-lg text-cosmic-brown mb-2">Hours</h3>
+                      <div className="space-y-1 text-sm text-muted-foreground">
+                        <div className="flex justify-between">
+                          <span>Sunday</span>
+                          <span>7 AM–10 PM</span>
+                        </div>
+                        <div className="flex justify-between">
+                          <span>Monday</span>
+                          <span>7 AM–10 PM</span>
+                        </div>
+                        <div className="flex justify-between">
+                          <span>Tuesday</span>
+                          <span>7 AM–10 PM</span>
+                        </div>
+                        <div className="flex flex-col">
+                          <div className="flex justify-between">
+                            <span>Wednesday</span>
+                            <span>7 AM–10 PM</span>
+                          </div>
+                          <span className="text-xs text-cosmic-gold italic">(Kuwait National Day - Hours might differ)</span>
+                        </div>
+                        <div className="flex flex-col">
+                          <div className="flex justify-between">
+                            <span>Thursday</span>
+                            <span>7 AM–10 PM</span>
+                          </div>
+                          <span className="text-xs text-cosmic-gold italic">(Kuwait Liberation Day - Hours might differ)</span>
+                        </div>
+                        <div className="flex justify-between">
+                          <span>Friday</span>
+                          <span>10 AM–10 PM</span>
+                        </div>
+                        <div className="flex justify-between">
+                          <span>Saturday</span>
+                          <span>10 AM–10 PM</span>
+                        </div>
+                      </div>
                     </div>
                   </div>
 
@@ -69,7 +107,7 @@ export default function Contact() {
                     </div>
                     <div>
                       <h3 className="font-semibold text-lg text-cosmic-brown mb-1">Phone</h3>
-                      <p className="text-muted-foreground">[Insert Phone Number]</p>
+                      <p className="text-muted-foreground">+965 66339592</p>
                     </div>
                   </div>
 
